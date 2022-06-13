@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Roboto&display=swap');
+
+/*=== GLOBAL ==================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-light: #FFFFFF;
+    --bg-dark: #0A0615;
+    --bg-dark-primary: #131220;
+    --bg-dark-secundary: #2E2D3F;
+    --color-border: #A8A8B3;
+    --color-hover-panel: #616174;
+    --color-primary: #27B936;
+    --color-primary-dark: #249930;
+    --color-secundary: #B92727;
+    --color-secundary-dark: #a12525;
+    --bg-form: #838489;
+}
+
+body {
+    font-family: 'Roboto';
+    color: var(--text-light);
+
+    background-color: var(--bg-dark);
+}
+
+.page-content {
+    background-color: var(--bg-dark-primary);
+    height: 100vh;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 8rem;
+}
+
+.description p {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.legend p {
+    font-size: 1.5rem;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.buttons-container a {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.6rem;
+
+    color: var(--text-light);
+    font-size: 1.2rem;
+
+    transition: background-color 0.2s;
+}
+
+.buttons-container a.primary {
+    background-color: var(--color-primary);   
+}
+
+.buttons-container a.secundary {
+    background-color: var(--color-secundary);
+}
+
+.buttons-container a.primary:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.buttons-container a.secundary:hover {
+    background-color: var(--color-secundary-dark);
+}
+
+.button-model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    height: 38px;
+    margin-top: 50px;
+}
+
+.button-exit {
+    width: 135px;
+}
+
+.button-save {
+    width: 230px;
+}

@@ -1,0 +1,42 @@
+/*=== STYLES MONITORIAS ==================================*/
+body {
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    width: 100vw;
+    height: 30vh;
+}
+
+.nav-bar img {
+    width: 230px;
+}
+
+.nav-bar p {
+    margin-right: 6rem;
+}
+
+.cont-monitorias {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-dark-primary);
+}
+
+.title-monitorias {
+    padding-top: 3rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.post-monitorias {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-top: 4rem;
+}

@@ -1,0 +1,127 @@
+/*=== STYLES PUBLICAR MONITORIA ==================================*/
+.monitor-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--bg-dark-primary);
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.container-monitorias {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.content-function {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 2rem;
+}
+
+.button-log {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    background-color: #0A0615;
+    border: solid 1px #838489;
+    border-radius: 0.3rem;
+    padding: 5px 10px;
+
+    margin-left: 2rem;
+}
+
+.content-monitorias {
+    background-color: #2E2D3F;
+    border: solid 1px var(--color-border);
+    border-radius: 0.5rem;
+    padding: 15px;
+}
+
+.monitor-title {
+    display: flex;
+}
+
+.monitor-title p {
+    padding-left: 10px;
+}
+
+.monitor-title span {
+    color: var(--color-primary);
+}
+
+.flag-monitor {
+    margin-bottom: 8px;
+}
+
+.content-monitorias p {
+    margin-top: 10px;
+}
+
+.monitor-description {
+    display: flex;
+    margin-top: 10px;
+}
+
+.flag-prof {
+    margin-right: 30px;
+}
+
+.flag-prof :nth-child(1) {
+    color: #9C98A6;
+}
+
+.flag-specify {
+    margin-right: 7px;
+    color: #9C98A6;
+}
+
+.flag-date {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.flag-date p {
+    margin-right: 7px;
+}
+
+.flag-date :nth-child(1) p {
+    color: #9C98A6;
+}
+
+.content-button {
+    padding-left: 2.2rem;
+}
+
+.button-whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+    background-color: var(--color-primary);
+    padding: 10px;
+
+    border-radius: 0.4rem;
+}
+
+.flag-work {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    gap: 1rem;
+}
+
+.flag-work p {
+    margin-right: 6rem;
+}

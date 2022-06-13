@@ -1,0 +1,47 @@
+/*=== GRID POSITION HOME ==================================*/
+.page-home {
+    padding: 8rem 6rem 0 6rem;
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 
+        'logo description'
+        'legend buttons'
+    ;
+}
+
+.logo-container {
+    grid-area: logo;
+}
+
+.home-description {
+    grid-area: legend;
+    margin-top: 4rem
+}
+
+.home-description {
+    grid-area: description;
+}
+
+.buttons-container {
+    grid-area: buttons;
+    margin-top: 3rem;
+}
+
+/*=== STYLES HOME==================================*/
+.home-legend {
+    margin-top: 6rem;
+}
+
+.description p:nth-child(2) {
+    margin-top: 3.5rem;;
+}
+
+.buttons-container a.student {
+    padding: 25px 60px;
+}
+
+.buttons-container a.monitor {
+    padding: 25px 52px
+}

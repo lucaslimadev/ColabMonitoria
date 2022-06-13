@@ -1,0 +1,59 @@
+/*=== STYLES PAINEL ==================================*/
+.page-painel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.painel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin-inline: auto;
+}
+
+.painel-content h2 {
+    font-size: 1.5rem;
+}
+
+.painel-content p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+.button-panel {
+    height: 12rem;
+    width: 15rem;
+
+    background-color: var(--bg-dark-secundary);
+    color: var(--text-light);
+
+    border: solid 1px var(--color-border);
+    border-radius: 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    transition: background-color 0.2s;
+}
+
+.button-panel:hover {
+    background-color: var(--color-hover-panel);
+}
+
+.button-panel a {
+    color: var(--text-light);
+    text-decoration: none;
+}
